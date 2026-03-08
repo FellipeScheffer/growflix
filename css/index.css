@@ -11,7 +11,7 @@ header{
   background-attachment: fixed; /* deixa a imagem parada */
 }
 
-header p, h3, h5{
+header, main{
   color: white;
 }
 
@@ -27,8 +27,14 @@ header p, h3, h5{
   padding-bottom: 15px
 }
 
-.section-1{
-  min-height: 100vh;
-  background-color: white;
-  padding: 50px;
+.linha{
+  border-bottom: 2px solid gray;
+}
+
+#perguntas{
+  width: 875px;
+}
+
+.accordion-item {
+  border: 4px solid black;
 }
