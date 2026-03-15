@@ -4,11 +4,22 @@ body {
   background-color: #000000;
 }
 
-header{
+.cabecalho-index{
   height: 72.5vh;
   background-image: url(../assets/images/banner-initial.png);
   background-size: cover;
-  background-attachment: fixed; /* deixa a imagem parada */
+  background-attachment: fixed;
+}
+
+.cabecalho-home{
+  height: 80vh;
+  background-image: url(../assets/images/growcast-01.png);
+  background-size: cover;
+}
+
+.row-cabecalho-home{
+  padding-top: 410px;
+  padding-left: 100px;
 }
 
 header, main{
@@ -25,6 +36,31 @@ header, main{
   padding-top: 15px;
   padding-left: 10px;
   padding-bottom: 15px
+}
+
+
+
+.card-hover{
+  transition: all 0.5s ease-out;
+}
+
+.card-hover:hover {
+  margin-top: -20px;
+  position: absolute;
+  width: 350px;
+  background-color: #000000;
+  padding-bottom: 20px;
+}
+
+.card-infos {
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.card-hover:hover .card-infos {
+  display: block;
 }
 
 .linha{
